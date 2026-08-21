@@ -3,9 +3,9 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "crud_aula";
+$database = "crud_erro";
 
-$conexao = new mysqli($host, $user, $password, $database);
+$conexao = new mysqli($host, $user, $password, $database, 3307);
 
 if ($conexao->connect_error) {
     die("erro na conexão : " . $conexao->connect_error);
